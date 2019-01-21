@@ -1,8 +1,11 @@
 source 'https://rubygems.org'
 
 
+gem 'rails-controller-testing'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 4.2'
+gem 'rails'
+# , '~> 4.2'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use SCSS for stylesheets
@@ -36,7 +39,7 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'rspec-rails',      ">= 2.0.0.beta"
   gem 'annotate'
-  gem 'pry-byebug'
+  # gem 'pry-byebug'
   gem 'faker'
 end
 
